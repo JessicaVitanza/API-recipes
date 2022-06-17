@@ -1,0 +1,246 @@
+[
+    {
+     "name": "Babagaoush",
+     "scope": "Antipasti",
+     "facility": "facile",
+     "time": "105 min",
+     "ingredients": "1kg melanzane, 1 limone, 1 spicchio di aglio, 1 cucchiaio di tahina, 2 cucchiai di olio evo",
+     "preparation": "Preriscaldate il forno a 200 °C in modalità statica.Lavate e asciugate le melanzane. Dividetele a metà per il lungo, tagliandole con un coltello ben affilato, poi incidete la polpa a quadretti, senza bucare la buccia dall'altra parte. Massaggiate le melanzane dalla parte piatta con un filo di olio e mettetele su una teglia foderata di carta da forno, rivolte verso il basso. Cuocete in forno per un’ora. Quando le melanzane saranno cotte, saranno diventate leggermente più piccole e molto raggrinzite. Aspettate che si intiepidiscano, poi apritele ed estraetene la polpa, scavando delicatamente con un cucchiaio. Mettetela in un retino o in uno scolapasta e lasciatela colare per qualche minuto, in modo da far uscire l’acqua in eccesso. Trasferite la polpa all’interno di un mixer o di un frullatore, aggiungete la tahina, il succo di limone, l'aglio, sale e pepe. Tritate il tutto per qualche istante, finché il composto non vi sembrerà omogeneo. In alternativa potete anche schiacciare con una forchetta, ma in questo caso otterrete una crema più granulosa.Quando il composto sarà omogeneo, aggiungete due cucchiai di olio e azionate brevemente il frullatore ancora una volta. Trasferite il babaganoush in una ciotola e decorate con ancora un po’ di olio, semi di sesamo e menta tritata.",
+     "id": "1"
+    },
+    {
+     "name": "Hummus di ceci",
+     "scope": "scope 2",
+     "facility": "facility 2",
+     "time": "time 2",
+     "ingredients": "ingredients 2",
+     "preparation": "preparation 1",
+     "id": "2"
+    },
+    {
+     "name": "Guacamole",
+     "scope": "scope 3",
+     "facility": "facility 3",
+     "time": "time 3",
+     "ingredients": "ingredients 3",
+     "preparation": "preparation 1",
+     "id": "3"
+    },
+    {
+     "name": "Lasagne con ragù di lenticchie",
+     "scope": "scope 4",
+     "facility": "facility 4",
+     "time": "time 4",
+     "ingredients": "ingredients 4",
+     "preparation": "preparation 1",
+     "id": "4"
+    },
+    {
+        "name": "Gnocchi alla zucca",
+        "scope": "Primi",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Risotto porcini e tartufo",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Ravioli con ricotta vegan e noci",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Pasta al sugo di peperoni",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Farinata",
+        "scope": "Secondi",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Burger di fagioli rossi",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Cotolette di ceci",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Polpette di lenticchie",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Nuggets di tofu",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Chips di cavolo nero",
+        "scope": "Contorni",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Fiori di zucca fritti",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Patate dolci al forno",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Torta sacher",
+        "scope": "Dolci",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Banana bread",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Pacakes",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Brownies senza glutine",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Cookies ai fiocchi di avena",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Crostata di fragole",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Besciamella",
+        "scope": "Creme e salse",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Spalmabile di tofu",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Crema al limone",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Mousse al cioccolato e avocado",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       },
+       {
+        "name": "Smoothie di frutta",
+        "scope": "scope 4",
+        "facility": "facility 4",
+        "time": "time 4",
+        "ingredients": "ingredients 4",
+        "preparation": "preparation 1",
+        "id": "4"
+       }
+
+   ]

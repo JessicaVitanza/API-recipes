@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Varela+Round&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hammersmith+One&family=Varela+Round&display=swap');
         </style>
     <title>Try Vegan</title>
 </head>
 <body>
-
+ 
 
    <div class="nav-bar"> 
        <div class="title-nav-bar">TRY VEGAN</div>
@@ -32,38 +32,39 @@
         
         </ul>
       </div>
+
+      <input class="input" id="search-input" type="search" placeholder="Search...">
+        <button class="search" id="search" onclick="search()"></button>
   
    </div>
 
-
-<div class="page-container">    
+<div class="page-container"  id="page-container">    
+     
        <p class="intro">Vuoi provare l'alimentazione vegetale? <br> Ecco qui alcune ricette vegan, semplici, facili e veloci.</p>
     
+
        <div>
-        <ul class="list">
-            <span class="portate">ANTIPASTI</span>
-            <span class="portate">PRIMI</span>
-            <span class="portate">SECONDI</span>
-            <span class="portate">CONTORNI</span>
-            <span class="portate">DOLCI</span>
-            <span class="portate">ALTRO</span>
-        </ul>
-    </div>
-
-
-    <div>
         <ul class="list-png">
             <img class="img-list" src="./assets/babaganoush.png" alt="">
             <img class="img-list" src="./assets/risotto.png" alt="">
             <img class="img-list" src="./assets/nuggets.png" alt="">
             <img class="img-list" src="./assets/chipscavolo.png" alt="">
             <img class="img-list" src="./assets/pancakes.png" alt="">
-            <img class="img-list" src="./assets/besciamella.png" alt="">
+            <img class="img-list" src="./assets/besciamella.png" alt=""> 
         </ul>
-        
+
     </div>
-    
-    
+       <div>
+        <ul class="list">
+            <button onclick="showMore1()" id="show-more" class="portate">ANTIPASTI</button>
+            <button onclick="showMore2()" id="show-more" class="portate">PRIMI</button>
+            <button onclick="showMore3()" id="show-more" class="portate">SECONDI</button>
+            <button onclick="showMore4()" id="show-more" class="portate">CONTORNI</button>
+            <button onclick="showMore5()" id="show-more" class="portate">DOLCI</button>
+            <button onclick="showMore6()" id="show-more" class="portate">ALTRO</button>
+        </ul>
+    </div>
+
 
 
 
@@ -73,16 +74,15 @@
             <img class="icon" src="./assets/person_FILL0_wght400_GRAD0_opsz48.svg" alt="social">
             <img class="icon" src="./assets/phone_iphone_FILL0_wght400_GRAD0_opsz48.svg" alt="telephone">
         </div>
+        
     </footer>
     
 </div>
 
 
 
-
-
-
-
-
 </body>
+<script src="./model.js"></script>
+<script src="./main.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </html>

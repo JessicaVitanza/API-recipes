@@ -7,7 +7,8 @@ body {
     background-color: rgb(239, 246, 240);
     font-family: 'Varela Round', sans-serif;
     background-color: #bfa5831e;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .nav-bar {
@@ -171,47 +172,82 @@ position: fixed;
 .list {
     background-color: #bfa58388;
     width: 100%;
-    margin-left: -180px;
-    padding-right:48px;
-    padding-left: 200px;
-    height: 50px;
+    margin-left: -140px;
+    margin-right: -100px;
+    padding-right:150px;
+    padding-left: 115px;
+    height: 40px;
     display: flex;
     align-items: center;
-    margin-top: -0px;
+    margin-top: 10px;
     margin-bottom: 60px;
+    position: block;
 }
 
-  .portate{
+
+  .portate {
       color: #fff;
       padding: 20px 40px;
-      text-shadow: #563b3090 1px 2px 2px;
-      margin: 50px;
+      text-shadow: #563b309b 1px 2px 2px;
+      margin: 70px;
 text-align: center;
 letter-spacing: 2px;
 border: none;
 background-color: transparent;
+display: block;
+z-index: 2;
+margin-top: -3px;
   }
 
-  .portate:hover{
-    background-color: #563b304f !important;
-    text-shadow: #563b30d3 1px 2px 2px;
+.portate:hover{
+    background-color: #563b30;
   color: #fff;
-  padding: 18px 20px;
-  margin: 70px;
-  border-radius: 16px;
-text-align: center;
-display: block;
-}
-
-.portate:focus{
-    background-color: #563b30 !important;
-  color: #fff;
-  padding: 32px 20px;
-  margin: 70px;
+  padding: 32px 20px 42px 20px;
+  margin: 90px;
   border-radius: 26px;
 text-align: center;
 display: block;
+margin-top: -15px;
+letter-spacing: 2px;
+
 }
+
+.dropdown {
+    position: relative;
+    padding: 0px;
+    width: 200px;
+    height: 50px;
+    z-index: 0;
+    margin-left: 20px;
+    display: flex;
+  background-color: rgba(255, 0, 0, 0.274);
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 80px;
+    width: auto;
+    z-index: 1;
+    width: 500px;
+    border-radius: 16px ;
+    background: #563b30;
+
+  }
+  
+  .dropdown-content a {
+    color:#fff;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    margin-left: 0px;
+    letter-spacing: 2px;
+  }
+
+.dropdown:hover .dropdown-content {display: block;}
+  
+  
 
 .list-png{
     display: flex;

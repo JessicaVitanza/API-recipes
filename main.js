@@ -23,6 +23,8 @@ function search() {
     }
   }
 
+  
+
   //// FUNCTION CHE REINDERIZZA ALLA PAGINA DELLA CARD SELEZIONATA
 
 

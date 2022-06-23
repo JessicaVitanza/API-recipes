@@ -30,8 +30,8 @@ body {
 .title-nav-bar {
     font-family: 'Hammersmith One', sans-serif;
     font-size: 40px;
-    text-shadow: #563b3051 2px 2px 2px;
     margin-left: -1000px;
+    text-shadow: #563b3051 2px 2px 2px;
     letter-spacing: 2px;
   
 }

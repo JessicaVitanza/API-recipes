@@ -56,7 +56,7 @@ position: fixed;
     width: 36px;
   }
 
-  .search:hover {
+  .search:active {
     cursor: pointer;
   }
 
@@ -142,7 +142,7 @@ position: fixed;
     margin-bottom: 20px;
     margin-top: 20px;
     background-color: #8b916dbf;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     text-decoration: none;
     transition-duration: .35s;
@@ -241,7 +241,6 @@ position: fixed;
     display: flex;
     justify-content:flex-end;
     align-items: baseline;
- 
 }
 
 .icon {
@@ -256,6 +255,71 @@ position: fixed;
 
 
 
+.why{
+  color: #8b916d;
+  font-family: 'Varela Round', sans-serif;
+  margin-left: 50px;
+  font-size: xx-large;
+  margin-top: 140px;
+  color: #563b30;
+
+}
+
+.why1{
+  color: #563b30;
+  margin-left: 30px;
+  font-size: x-large;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+
+.why-txt{
+  color: #8b916d;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 16px;
+ font-size: large;
+ margin-left: 50px;
+ line-height: 30px;
+ width: 1310px;
+}
+
+.body-why{
+  background-image: url('./assets/pattern1.jpeg');
+  background-size:inherit;
+  position:static;
+}
+
+
+.btn {
+  -webkit-tap-highlight-color: var(--color-transparent);
+  position: fixed;
+  background: #8b916d;
+  color: #fff;
+  bottom: 0px;
+  right: 0px;
+  z-index: 2;
+  padding: 1.5rem 1rem 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 150px 0px 0px 0px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  -webkit-tap-highlight-color: var(--color-transparent);
+  position: fixed;
+  background: #bfa583;
+  color: #fff;
+  bottom: 0px;
+  right: 0px;
+  z-index: 2;
+  padding: 1.5rem 1rem 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 150px 0px 0px 0px;
+  cursor: pointer;
+}
 
 
 

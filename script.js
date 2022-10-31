@@ -20,6 +20,7 @@ fetch('https://628778b1e9494df61b39b038.mockapi.io/recipes')
 function displayRecipes(recipes) {
     const container = document.getElementById('container');
     console.log(recipes);
+  
     
     // CREO UNA CARD PER OGNI PAESE
         for (let recipe of recipes) {
@@ -53,13 +54,7 @@ function displayRecipes(recipes) {
             const bottomCard = document.createElement('div');
             bottomCard.classList.add('bottom-card');
             card.appendChild(bottomCard);
-    
-            // CONTINENTE
-            const time = document.createElement('p');
-            time.classList.add('time');
-            time.innerText = 'Tempo : ' + recipe.time;
-            bottomCard.appendChild(time);
-    
+  
             // REGIONE DEL CONTINENTE
             const ingredients = document.createElement('p');
             ingredients.classList.add('ingredients');
@@ -71,8 +66,14 @@ function displayRecipes(recipes) {
             preparation.innerText = 'Preparazione : ' + recipe.preparation;
             bottomCard.appendChild(preparation);
 
+            const time = document.createElement('p');
+            time.classList.add('time');
+            time.innerText = 'Tempo : ' + recipe.time;
+            bottomCard.appendChild(time);
+
     
            container.appendChild(card);
+           
     
     }
  }

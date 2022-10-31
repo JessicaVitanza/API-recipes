@@ -193,23 +193,17 @@ position: fixed;
  
   }
 
-  .carousel-control {
-    border-radius: 26px;
-  }
-
-
   .carousel {
     background-color: #8b916d;
     color: #fff;
-    border-radius: 26px;
     text-align: center;
   }
 
-
   .item-img {
-    border-radius: 26px 26px 0px 0px;
     width: 100%;
   }
+
+ 
 
 .item-title{
   text-shadow: #563b30 2px 2px 2px;
@@ -322,12 +316,14 @@ position: fixed;
 }
 
 .card {
-  border: 2px blue solid;
+  border: 6px red solid;
   margin-bottom: 20px;
 }
 
 .bottom-card {
-  border: 2px red solid;
+  background-color: #8b916d;
+  color: #fff;
+  padding: 10px 20px;
 }
 
 

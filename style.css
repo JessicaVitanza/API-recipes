@@ -321,6 +321,14 @@ position: fixed;
   cursor: pointer;
 }
 
+.card {
+  border: 2px blue solid;
+  margin-bottom: 20px;
+}
+
+.bottom-card {
+  border: 2px red solid;
+}
 
 
 

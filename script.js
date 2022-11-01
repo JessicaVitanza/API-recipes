@@ -63,6 +63,7 @@ function displayRecipes(recipes) {
     
             // CONFINI
             const preparation = document.createElement('p');
+            preparation.classList.add('preparation');
             preparation.innerText = 'Preparazione : ' + recipe.preparation;
             bottomCard.appendChild(preparation);
 
@@ -72,7 +73,7 @@ function displayRecipes(recipes) {
             bottomCard.appendChild(time);
 
     
-           container.appendChild(card);
+            container.appendChild(card);
            
     
     }

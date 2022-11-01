@@ -30,7 +30,7 @@ function displayRecipes(recipes) {
             // NAME
             const name = document.createElement('p');
             name.classList.add('name');
-            name.innerText = 'Nome : ' + recipe.name;
+            name.innerText = recipe.name;
             card.appendChild(name);
 
             const img = document.createElement('img');
@@ -47,7 +47,7 @@ function displayRecipes(recipes) {
             // BANDIERA
             const facility = document.createElement('p');
             facility.classList.add('facility');
-            facility.innerText = 'Facilità : ' + recipe.facility;
+            facility.innerText = 'Difficoltà : ' + recipe.facility;
             card.appendChild(facility);
     
             // CREO UN DIV CONTENENTE LE INFO

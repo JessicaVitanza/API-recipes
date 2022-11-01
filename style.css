@@ -215,11 +215,6 @@ position: fixed;
   text-shadow: #563b30 2px 2px 2px;
 }
 
-  .item-txt{
-    margin-top: -10px;
-    margin-bottom: 20px;
-  }
-
   .item-ul{
     margin-top: -20px;
     margin-bottom: 20px;
@@ -320,10 +315,7 @@ position: fixed;
   margin-top: 130px;
   margin-left: 40px;
   font-family: 'Varela Round', sans-serif;
-  background-color: #fff;
-  width: fit-content;
-  padding: 8px 16px;
-  border-radius: 8px;
+  font-weight: bolder;
 }
 
 
@@ -340,7 +332,7 @@ position: fixed;
 }
 
 .card {
-  width: 85%;
+  width: 95%;
   height: fit-content;
   text-align: center;
   padding: 16px;
@@ -356,6 +348,8 @@ position: fixed;
   letter-spacing: 2px;
   color: #563b30;
   font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px;
 }
 
 .img {
@@ -363,18 +357,16 @@ position: fixed;
   border-radius: 10px;
 }
 
-.scope {
-  margin-top: 12px;
-  color: #563b30;
-}
-
+.scope,
 .facility {
+  margin: 12px;
   color: #563b30;
+  font-size: 1.6rem;
 }
 
 .bottom-card {
   background-color:#8b916d;
-  padding: 26px;
+  padding: 26px 36px;
   margin: 0 -16px -16px;
   border-radius: 16px;
   color: rgb(246, 243, 235);

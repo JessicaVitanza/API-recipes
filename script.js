@@ -18,12 +18,14 @@ fetch('https://628778b1e9494df61b39b038.mockapi.io/recipes')
 
 // DISPLAY DEI PAESI NEL DIV CON ID CONTAINER NELL'HTML
 function displayRecipes(recipes) {
+
     const container = document.getElementById('container');
     console.log(recipes);
   
     
-    // CREO UNA CARD PER OGNI PAESE
+    // CREO UNA CARD PER OGNI RICETTA
         for (let recipe of recipes) {
+    
             const card = document.createElement('div');
             card.classList.add('card');
     
@@ -33,18 +35,19 @@ function displayRecipes(recipes) {
             name.innerText = recipe.name;
             card.appendChild(name);
 
+            // IMG
             const img = document.createElement('img');
             img.classList.add('img');
             img.src = recipe.img;
             card.appendChild(img);
     
-            // CAPITALE
+            // PORTATA
             const scope = document.createElement('p');
             scope.classList.add('scope');
             scope.innerText = 'Portata : ' + recipe.scope;
             card.appendChild(scope);
     
-            // BANDIERA
+            // DIFFICOLTA'
             const facility = document.createElement('p');
             facility.classList.add('facility');
             facility.innerText = 'Difficoltà : ' + recipe.facility;
@@ -55,26 +58,24 @@ function displayRecipes(recipes) {
             bottomCard.classList.add('bottom-card');
             card.appendChild(bottomCard);
   
-            // REGIONE DEL CONTINENTE
+            // INGREDIENTI
             const ingredients = document.createElement('p');
             ingredients.classList.add('ingredients');
             ingredients.innerText = 'Ingredienti : ' + recipe.ingredients;
             bottomCard.appendChild(ingredients);
     
-            // CONFINI
+            // PREPARAZIONE
             const preparation = document.createElement('p');
             preparation.classList.add('preparation');
             preparation.innerText = 'Preparazione : ' + recipe.preparation;
             bottomCard.appendChild(preparation);
 
+            // TEMPO
             const time = document.createElement('p');
             time.classList.add('time');
             time.innerText = 'Tempo : ' + recipe.time;
             bottomCard.appendChild(time);
 
-    
             container.appendChild(card);
-           
-    
     }
  }
